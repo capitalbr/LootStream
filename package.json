@@ -1,0 +1,29 @@
+{
+  "name": "glitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --watch --mode='development'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "sequelize": "^5.19.6",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "devDependencies": {}
+}
