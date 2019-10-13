@@ -22,6 +22,7 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.4",
     "sequelize": "^5.19.6",
+    "sequelize-cli": "^5.5.1",
     "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9"
   },

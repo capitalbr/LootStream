@@ -1,0 +1,27 @@
+models
+  1)
+  Add validation to images for only certain types
+  can do this by using the 'validation' key and passing an object with a key of 
+    any name pointing to a function that takes in the rows value as input.
+
+    validation: {
+      isCorrectType: (keyValue) => {
+        do stuff to check
+        throw custom error to alert user if it doesn't pass the validation.
+        do nothing if it does.
+      }
+    }
+
+    This is well documented in the docs under validations and I saved a youtube
+     video clearly documenting this.
+  
+  2)
+  Friends Table
+    their should be a uniqueness constraint on each pair
+  3)
+  Video Table
+    Should be a uniqueness constraint on pair [channel_id, title]
+  4)
+  Messages Table
+    either channel or friendid has to be null but one has to have a value as well
+    need validation for this
