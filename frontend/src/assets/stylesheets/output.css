@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif|Poppins&display=swap");
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+input,
+textarea,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+button,
+input[type="submit"], a {
+  cursor: pointer; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.resize {
+  flex-shrink: 1;
+  flex-grow: 1; }
+
+.center-children {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .center-children.right-children {
+    justify-content: flex-end; }
+  .center-children.left-children {
+    justify-content: flex-start; }
+
+.search-field {
+  background: #424244;
+  padding: 9px 10px 9px 10px;
+  border-radius: 7px;
+  width: 300px; }
+
+.main-nav {
+  background-color: #18181C;
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap; }
+  .main-nav-left-section {
+    margin-left: 20px;
+    color: #FFFFFF;
+    height: 100%;
+    font-size: 18px; }
+    .main-nav-left-section a:hover {
+      color: #9147ff; }
+  .main-nav-right-section {
+    margin-right: 20px; }
+    .main-nav-right-section .icon {
+      color: white; }
+    .main-nav-right-section .button-container {
+      margin: 0px 11px 0px 0px; }
+      .main-nav-right-section .button-container button {
+        height: 26px;
+        font-size: 12px;
+        margin: 8px;
+        padding: 2px 9px 2px 9px;
+        border-radius: 4px; }
+        .main-nav-right-section .button-container button.log-in {
+          background-color: #DEDEDE;
+          color: black; }
+        .main-nav-right-section .button-container button.sign-up {
+          color: white;
+          background-color: #9147ff; }
+
+.main-nav.light {
+  background-color: #FFFFFF; }
+  .main-nav.light .main-nav-left-section {
+    color: #000000; }
+  .main-nav.light .main-nav-right-section .icon {
+    color: black; }
+
+/*# sourceMappingURL=output.css.map */

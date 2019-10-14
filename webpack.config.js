@@ -3,9 +3,9 @@ var path = require('path');
 
 
 module.exports = {
-  entry: './frontend/app.js',
+  entry: './frontend/src/index.js',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'frontend','public'),
     filename: 'bundle.js'
   },
   module: {
@@ -19,6 +19,10 @@ module.exports = {
             presets: ['@babel/env', '@babel/react']
           }
         },
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
       }
     ]
   },
