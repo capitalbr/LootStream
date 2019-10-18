@@ -105,4 +105,9 @@ body {
   .main-nav.light .main-nav-right-section .icon {
     color: black; }
 
+img {
+  width: 20%;
+  margin-right: 35px;
+  margin-bottom: 2px; }
+
 /*# sourceMappingURL=output.css.map */
